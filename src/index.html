@@ -8,22 +8,74 @@
       body {
         font-size: 1.5em;
       }
+
+      h2 {
+        margin-bottom: -0.15em;
+      }
+
+      li {
+        margin: 0.15em 0em;
+      }
+
+      code {
+        font-family: monospace;
+        font-size: 1.25em;
+      }
     </style>
   </head>
+
   <body>
     <p>
       This is a minimal webpage created by the DILNET SAs for quickly
       downloading certificates and config files for DILNET2.0, DILNET2.0 2.4Ghz,
       and eduroam.
     </p>
-    <h2>DILNET2.0 2.4Ghz</h2>
-    <ul>
-      <li>
-        iOS and macOS config file:
-        <a href="static/dilnettwopointfour.mobileconfig" download
-          >dilnettwopointfour.mobileconfig</a
-        >
-      </li>
-    </ul>
+    <div>
+      <h2>DILNET2.0</h2>
+      <ul>
+        <li>
+          Certificate file:
+          <a
+            href="https://dilnet.upd.edu.ph/wp-content/uploads/2023/10/upd_dilnet.crt"
+            >upd_dilnet.crt</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>eduroam</h2>
+      <ul>
+        <li>
+          Certificate file:
+          <a
+            href="https://dilnet.upd.edu.ph/wp-content/uploads/2022/10/upd_eduroam.crt"
+            >upd_eduroam.crt</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>DILNET2.0 2.4Ghz</h2>
+      <ul>
+        <li>
+          Usual instructions apply for
+          <a
+            href="https://dilnet.upd.edu.ph/kb/connecting-to-dilnet2-0-hotspot/#articleTOC_4"
+            >Windows</a
+          >
+          and
+          <a
+            href="https://dilnet.upd.edu.ph/kb/connecting-to-dilnet2-0-hotspot/#articleTOC_1"
+            >Android</a
+          >, but change the network name/SSID to: <code>DILNET2.0 2.4Ghz</code>
+        </li>
+        <li>
+          iOS and macOS config file:
+          <a href="static/dilnettwopointfour.mobileconfig" download
+            >dilnettwopointfour.mobileconfig</a
+          >
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
