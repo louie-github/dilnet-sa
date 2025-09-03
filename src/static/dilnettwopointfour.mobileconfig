@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>This is a requirement to connect to DILNET2.0 2.4Ghz Hotspot in UP Diliman</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>DisableAssociationMACRandomization</key>
+			<true/>
+			<key>EAPClientConfiguration</key>
+			<dict>
+				<key>AcceptEAPTypes</key>
+				<array>
+					<integer>21</integer>
+				</array>
+				<key>OneTimeUserPassword</key>
+				<false/>
+				<key>PayloadCertificateAnchorUUID</key>
+				<array>
+					<string>3C93F577-8EAC-4517-81E7-AF53C7EBFFBC</string>
+				</array>
+				<key>TLSMaximumVersion</key>
+				<string>1.2</string>
+				<key>TLSMinimumVersion</key>
+				<string>1.0</string>
+				<key>TLSTrustedServerNames</key>
+				<array/>
+				<key>TTLSInnerAuthentication</key>
+				<string>PAP</string>
+			</dict>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>Configures Wi-Fi settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.98979E8F-C2FD-4021-A50E-C7002DFC9650</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>98979E8F-C2FD-4021-A50E-C7002DFC9650</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>DILNET2.0 2.4Ghz</string>
+		</dict>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>upd_dilnet.crt</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIFFTCCA/2gAwIBAgIUdSIBY5WwYFBI/6WdhIxl5JVoNDYwDQYJ
+			KoZIhvcNAQELBQAwgaExCzAJBgNVBAYTAlBIMRQwEgYDVQQIDAtR
+			dWV6b24gQ2l0eTEQMA4GA1UEBwwHRGlsaW1hbjEmMCQGA1UECgwd
+			VW5pdmVyc2l0eSBvZiB0aGUgUGhpbGlwcGluZXMxKTAnBgkqhkiG
+			9w0BCQEWGmNvbXB1dGVyLmNlbnRlckB1cGQuZWR1LnBoMRcwFQYD
+			VQQDDA5EaWxOZXQgV2lGaSBDQTAeFw0yMzEwMjQwNTA4NTNaFw0y
+			NjEwMjQwNTA4NTNaMIGhMQswCQYDVQQGEwJQSDEUMBIGA1UECAwL
+			UXVlem9uIENpdHkxEDAOBgNVBAcMB0RpbGltYW4xJjAkBgNVBAoM
+			HVVuaXZlcnNpdHkgb2YgdGhlIFBoaWxpcHBpbmVzMSkwJwYJKoZI
+			hvcNAQkBFhpjb21wdXRlci5jZW50ZXJAdXBkLmVkdS5waDEXMBUG
+			A1UEAwwORGlsTmV0IFdpRmkgQ0EwggEiMA0GCSqGSIb3DQEBAQUA
+			A4IBDwAwggEKAoIBAQCiPwksDe6qIxNrJ2PTAaP2+vt6a+KrOvSS
+			PKepawn34DA+eHfetHaWv5TIkRQD+SSHM8EfpI/AjEbltFUeJK88
+			U65oD7pQzAZTkglQ0n8FA3zTkAcp2ORxzh6USuC3tl1yk1L7vMuB
+			XE3VLvGIQqsenreT/nM1vVAly9ydQvgSxOVwPsJV8YyksyQ3/Vxp
+			Am/1aSNfN35hQ0X8nXzNjVJMSpVwXQpjyuUYIfvXWOJcf/G9+gTS
+			5Y+jGfReogYmU7z7nS/JFggOm2DaVHzsyS3MID4ZR0+bNeKEVVBq
+			SDKEWkEF4IVTPjo7KdYJ87qB7tITNuOHDaEiUkSHfGq+ug4/AgMB
+			AAGjggFBMIIBPTAdBgNVHQ4EFgQUrmWXHQz4z14GOxwwUZ+VoGb0
+			ZzAwgeEGA1UdIwSB2TCB1oAUrmWXHQz4z14GOxwwUZ+VoGb0ZzCh
+			gaekgaQwgaExCzAJBgNVBAYTAlBIMRQwEgYDVQQIDAtRdWV6b24g
+			Q2l0eTEQMA4GA1UEBwwHRGlsaW1hbjEmMCQGA1UECgwdVW5pdmVy
+			c2l0eSBvZiB0aGUgUGhpbGlwcGluZXMxKTAnBgkqhkiG9w0BCQEW
+			GmNvbXB1dGVyLmNlbnRlckB1cGQuZWR1LnBoMRcwFQYDVQQDDA5E
+			aWxOZXQgV2lGaSBDQYIUdSIBY5WwYFBI/6WdhIxl5JVoNDYwDwYD
+			VR0TAQH/BAUwAwEB/zAnBgNVHR8EIDAeMBygGqAYhhZodHRwczov
+			L3VjYy51cGQuZWR1LnBoMA0GCSqGSIb3DQEBCwUAA4IBAQA0IRvD
+			smc99Suh8ONS2d5I9ztWIm4etP+8HdqBR7rxQc5SuaiHJRpF2vlr
+			PDvL7CaywjtmAGQJCegSFuCW7lahk1XZBF/csIBa1sC/B33xtjab
+			536gQ7xJlTtrTvdZdfUujxRtZ57uXVuI9sEGzUuG40TLp7orsonL
+			lst1Ifi6/XH1tuhQr33RjDJQr5sHdZ4FJXls/x6Z+gThbl3zY2ek
+			AVlNG6lD/tx1DHjqm+kkXIla2s/Km1mFiQw/B7XW1WV8HhwIgKx8
+			tkyt4ano/sX0+eUhjnEDOwa3spzV86m2b82z1a+fWo+uLVIKHEEg
+			ti2RtNRXpnrdd3wRR/B9oqTm
+			</data>
+			<key>PayloadDescription</key>
+			<string>Adds a CA root certificate</string>
+			<key>PayloadDisplayName</key>
+			<string>DilNet WiFi CA</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.root.3C93F577-8EAC-4517-81E7-AF53C7EBFFBC</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>3C93F577-8EAC-4517-81E7-AF53C7EBFFBC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Profile for DILNET2.0 2.4Ghz Hotspot</string>
+	<key>PayloadDisplayName</key>
+	<string>DILNET2.0 2.4Ghz</string>
+	<key>PayloadIdentifier</key>
+	<string>cc.upd.edu.ph</string>
+	<key>PayloadOrganization</key>
+	<string>University of the Philippines Diliman</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>b5a1ed1c-be17-4a9a-9333-86fa607bcc79</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
