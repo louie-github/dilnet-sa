@@ -5,61 +5,10 @@
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>This is a requirement to connect to DILNET2.0 2.4Ghz Hotspot in UP Diliman</string>
+		<string>This is a requirement to connect to DILNET2.0 Hotspot in UP Diliman</string>
 	</dict>
 	<key>PayloadContent</key>
 	<array>
-		<dict>
-			<key>AutoJoin</key>
-			<true/>
-			<key>CaptiveBypass</key>
-			<false/>
-			<key>DisableAssociationMACRandomization</key>
-			<true/>
-			<key>EAPClientConfiguration</key>
-			<dict>
-				<key>AcceptEAPTypes</key>
-				<array>
-					<integer>21</integer>
-				</array>
-				<key>OneTimeUserPassword</key>
-				<false/>
-				<key>PayloadCertificateAnchorUUID</key>
-				<array>
-					<string>3C93F577-8EAC-4517-81E7-AF53C7EBFFBC</string>
-				</array>
-				<key>TLSMaximumVersion</key>
-				<string>1.2</string>
-				<key>TLSMinimumVersion</key>
-				<string>1.0</string>
-				<key>TLSTrustedServerNames</key>
-				<array/>
-				<key>TTLSInnerAuthentication</key>
-				<string>PAP</string>
-			</dict>
-			<key>EncryptionType</key>
-			<string>WPA</string>
-			<key>HIDDEN_NETWORK</key>
-			<false/>
-			<key>IsHotspot</key>
-			<false/>
-			<key>PayloadDescription</key>
-			<string>Configures Wi-Fi settings</string>
-			<key>PayloadDisplayName</key>
-			<string>Wi-Fi</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.wifi.managed.98979E8F-C2FD-4021-A50E-C7002DFC9650</string>
-			<key>PayloadType</key>
-			<string>com.apple.wifi.managed</string>
-			<key>PayloadUUID</key>
-			<string>98979E8F-C2FD-4021-A50E-C7002DFC9650</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProxyType</key>
-			<string>None</string>
-			<key>SSID_STR</key>
-			<string>DILNET2.0 2.4Ghz</string>
-		</dict>
 		<dict>
 			<key>PayloadCertificateFileName</key>
 			<string>upd_dilnet.crt</string>
@@ -113,13 +62,64 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>DisableAssociationMACRandomization</key>
+			<true/>
+			<key>EAPClientConfiguration</key>
+			<dict>
+				<key>AcceptEAPTypes</key>
+				<array>
+					<integer>21</integer>
+				</array>
+				<key>OneTimeUserPassword</key>
+				<false/>
+				<key>PayloadCertificateAnchorUUID</key>
+				<array>
+					<string>3C93F577-8EAC-4517-81E7-AF53C7EBFFBC</string>
+				</array>
+				<key>TLSMaximumVersion</key>
+				<string>1.2</string>
+				<key>TLSMinimumVersion</key>
+				<string>1.0</string>
+				<key>TLSTrustedServerNames</key>
+				<array/>
+				<key>TTLSInnerAuthentication</key>
+				<string>PAP</string>
+			</dict>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>Configures Wi-Fi settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.E27A7032-7577-41C6-AD34-4F15E96B2CC8</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>E27A7032-7577-41C6-AD34-4F15E96B2CC8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>DILNET2.0 2.4Ghz</string>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Profile for DILNET2.0 2.4Ghz Hotspot</string>
+	<string>Profile for DILNET2.0 Hotspot</string>
 	<key>PayloadDisplayName</key>
-	<string>DILNET2.0 2.4Ghz</string>
+	<string>DILNET2.0 - 2.4GHz</string>
 	<key>PayloadIdentifier</key>
-	<string>cc.upd.edu.ph</string>
+	<string>cc2.upd.edu.ph</string>
 	<key>PayloadOrganization</key>
 	<string>University of the Philippines Diliman</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -127,7 +127,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>b5a1ed1c-be17-4a9a-9333-86fa607bcc79</string>
+	<string>4C6510E0-F8ED-4815-A3CE-A0EC0A28349E</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
