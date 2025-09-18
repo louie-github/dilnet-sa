@@ -1,24 +1,99 @@
 body {
-  font-size: 1.25em;
-  width: 75%;
-  margin: auto;
+  font-family: system-ui, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f9fafb;
+  color: #1f2937;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  background: #2563eb;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  max-width: 600px;
+  margin-inline: auto;
+  font-size: 1rem;
+}
+
+main {
+  width: 85%;
+  max-width: 800px;
+  margin: 2rem auto;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  margin-bottom: -0.15em;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #2563eb;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0 0;
 }
 
 li {
-  margin: 0.15em 0em;
+  margin: 0.5rem 0;
+  list-style-type: disc;
 }
 
 code {
   font-family: monospace;
-  font-size: 1.25em;
+  background: #e5e7eb;
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.3rem;
+  font-size: 0.95em;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    width: 90%;
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b7280;
+  padding: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  main {
+    width: 95%;
   }
 }
