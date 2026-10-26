@@ -5,60 +5,60 @@
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>This is a requirement to connect to DILNET2.0 Hotspot in UP Diliman</string>
+		<string>This is a requirement to connect to DILNET2.0 2.4 Ghz Hotspot in UP Diliman</string>
 	</dict>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
 			<key>PayloadCertificateFileName</key>
-			<string>upd_dilnet.crt</string>
+			<string>upd-dilnet.crt</string>
 			<key>PayloadContent</key>
 			<data>
-			MIIFFTCCA/2gAwIBAgIUdSIBY5WwYFBI/6WdhIxl5JVoNDYwDQYJ
+			MIIFFTCCA/2gAwIBAgIUeUEWvndTs77iKh/yDxilvzR8ep0wDQYJ
 			KoZIhvcNAQELBQAwgaExCzAJBgNVBAYTAlBIMRQwEgYDVQQIDAtR
 			dWV6b24gQ2l0eTEQMA4GA1UEBwwHRGlsaW1hbjEmMCQGA1UECgwd
 			VW5pdmVyc2l0eSBvZiB0aGUgUGhpbGlwcGluZXMxKTAnBgkqhkiG
 			9w0BCQEWGmNvbXB1dGVyLmNlbnRlckB1cGQuZWR1LnBoMRcwFQYD
-			VQQDDA5EaWxOZXQgV2lGaSBDQTAeFw0yMzEwMjQwNTA4NTNaFw0y
-			NjEwMjQwNTA4NTNaMIGhMQswCQYDVQQGEwJQSDEUMBIGA1UECAwL
+			VQQDDA5EaWxOZXQgV2lGaSBDQTAeFw0yNjEwMjQwODI2NTdaFw0z
+			MjEwMjIwODI2NTdaMIGhMQswCQYDVQQGEwJQSDEUMBIGA1UECAwL
 			UXVlem9uIENpdHkxEDAOBgNVBAcMB0RpbGltYW4xJjAkBgNVBAoM
 			HVVuaXZlcnNpdHkgb2YgdGhlIFBoaWxpcHBpbmVzMSkwJwYJKoZI
 			hvcNAQkBFhpjb21wdXRlci5jZW50ZXJAdXBkLmVkdS5waDEXMBUG
 			A1UEAwwORGlsTmV0IFdpRmkgQ0EwggEiMA0GCSqGSIb3DQEBAQUA
-			A4IBDwAwggEKAoIBAQCiPwksDe6qIxNrJ2PTAaP2+vt6a+KrOvSS
-			PKepawn34DA+eHfetHaWv5TIkRQD+SSHM8EfpI/AjEbltFUeJK88
-			U65oD7pQzAZTkglQ0n8FA3zTkAcp2ORxzh6USuC3tl1yk1L7vMuB
-			XE3VLvGIQqsenreT/nM1vVAly9ydQvgSxOVwPsJV8YyksyQ3/Vxp
-			Am/1aSNfN35hQ0X8nXzNjVJMSpVwXQpjyuUYIfvXWOJcf/G9+gTS
-			5Y+jGfReogYmU7z7nS/JFggOm2DaVHzsyS3MID4ZR0+bNeKEVVBq
-			SDKEWkEF4IVTPjo7KdYJ87qB7tITNuOHDaEiUkSHfGq+ug4/AgMB
-			AAGjggFBMIIBPTAdBgNVHQ4EFgQUrmWXHQz4z14GOxwwUZ+VoGb0
-			ZzAwgeEGA1UdIwSB2TCB1oAUrmWXHQz4z14GOxwwUZ+VoGb0ZzCh
+			A4IBDwAwggEKAoIBAQDI2t6PN1GDVllO4YqiUrUwfwvIowxpuPCc
+			ieEr8L/D1gyjCv10+sxbuFNyxhXUGGBrtcTC472gIqPnVH24m0r8
+			wGupNwnFiwiCyY+9FH7k+UXqkmvn1SQ39m2n8WmHbB/S1dkFyOK9
+			KFBKLCMRKwYRbE5uskNfgqHoGOiqem9qDoua0FIpq8Ts8kn6o6Ta
+			9GgUkEIZtWG1UgrAjvWjw5PBwN8ljyCwlGELIV8yHnk/iyR/AkMw
+			wSfuOlXHWMLil/sd8EQ7I5FIh8kPqHVDk0t2dHgTxfJVjhro0RDK
+			LegkW9pvEe/rWE2F53FyfxKqnfeiHn4zvU2FVS0VViNtEZilAgMB
+			AAGjggFBMIIBPTAdBgNVHQ4EFgQUjh5nNatjyMTFegf6tRv4dVJ3
+			n1wwgeEGA1UdIwSB2TCB1oAUjh5nNatjyMTFegf6tRv4dVJ3n1yh
 			gaekgaQwgaExCzAJBgNVBAYTAlBIMRQwEgYDVQQIDAtRdWV6b24g
 			Q2l0eTEQMA4GA1UEBwwHRGlsaW1hbjEmMCQGA1UECgwdVW5pdmVy
 			c2l0eSBvZiB0aGUgUGhpbGlwcGluZXMxKTAnBgkqhkiG9w0BCQEW
 			GmNvbXB1dGVyLmNlbnRlckB1cGQuZWR1LnBoMRcwFQYDVQQDDA5E
-			aWxOZXQgV2lGaSBDQYIUdSIBY5WwYFBI/6WdhIxl5JVoNDYwDwYD
+			aWxOZXQgV2lGaSBDQYIUeUEWvndTs77iKh/yDxilvzR8ep0wDwYD
 			VR0TAQH/BAUwAwEB/zAnBgNVHR8EIDAeMBygGqAYhhZodHRwczov
-			L3VjYy51cGQuZWR1LnBoMA0GCSqGSIb3DQEBCwUAA4IBAQA0IRvD
-			smc99Suh8ONS2d5I9ztWIm4etP+8HdqBR7rxQc5SuaiHJRpF2vlr
-			PDvL7CaywjtmAGQJCegSFuCW7lahk1XZBF/csIBa1sC/B33xtjab
-			536gQ7xJlTtrTvdZdfUujxRtZ57uXVuI9sEGzUuG40TLp7orsonL
-			lst1Ifi6/XH1tuhQr33RjDJQr5sHdZ4FJXls/x6Z+gThbl3zY2ek
-			AVlNG6lD/tx1DHjqm+kkXIla2s/Km1mFiQw/B7XW1WV8HhwIgKx8
-			tkyt4ano/sX0+eUhjnEDOwa3spzV86m2b82z1a+fWo+uLVIKHEEg
-			ti2RtNRXpnrdd3wRR/B9oqTm
+			L3VjYy51cGQuZWR1LnBoMA0GCSqGSIb3DQEBCwUAA4IBAQAGnTbP
+			NORUGkQpRlNdW+3aodKCG3rwEez7ut0lbDhF8ZFzAInayVjJsDNO
+			bdVL4NNjX2MmLoxtw2GWtX6zGl79d5DWrjNxxXYQXzFuUwPMf3Hw
+			lI/aiIKuun8ydG7W1D3mGdtaInvdFAe5sReVZwYPShYEAO+kajsn
+			MR7PS6jogUxHgE7mjHOHixxQyD3T1LRXZhols/OO/vibUj9LFOmv
+			cQxtis6kSkqecI0KBQwqZOcZj2Fr/QLIX2OldMGEuCHtZfKUmRBq
+			fJ6Y4kulYDMrDB0TZlzcfcVQt8jP3Ov6AN/j3785FQ2GAaZT4keI
+			xhr7nmxlkQchGklXZ2iv+dKc
 			</data>
 			<key>PayloadDescription</key>
 			<string>Adds a CA root certificate</string>
 			<key>PayloadDisplayName</key>
 			<string>DilNet WiFi CA</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.security.root.3C93F577-8EAC-4517-81E7-AF53C7EBFFBC</string>
+			<string>com.apple.security.root.AD5F3755-7399-4DA9-8F5A-1AE31C968A32</string>
 			<key>PayloadType</key>
 			<string>com.apple.security.root</string>
 			<key>PayloadUUID</key>
-			<string>3C93F577-8EAC-4517-81E7-AF53C7EBFFBC</string>
+			<string>AD5F3755-7399-4DA9-8F5A-1AE31C968A32</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -79,7 +79,7 @@
 				<false/>
 				<key>PayloadCertificateAnchorUUID</key>
 				<array>
-					<string>3C93F577-8EAC-4517-81E7-AF53C7EBFFBC</string>
+					<string>AD5F3755-7399-4DA9-8F5A-1AE31C968A32</string>
 				</array>
 				<key>TLSMaximumVersion</key>
 				<string>1.2</string>
@@ -101,11 +101,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Wi-Fi</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.wifi.managed.E27A7032-7577-41C6-AD34-4F15E96B2CC8</string>
+			<string>com.apple.wifi.managed.46DE4D06-375F-41DE-9F39-56672A9874AD</string>
 			<key>PayloadType</key>
 			<string>com.apple.wifi.managed</string>
 			<key>PayloadUUID</key>
-			<string>E27A7032-7577-41C6-AD34-4F15E96B2CC8</string>
+			<string>46DE4D06-375F-41DE-9F39-56672A9874AD</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProxyType</key>
@@ -115,9 +115,9 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Profile for DILNET2.0 Hotspot</string>
+	<string>Profile for DILNET2.0 2.4Ghz Hotspot</string>
 	<key>PayloadDisplayName</key>
-	<string>DILNET2.0 - 2.4GHz</string>
+	<string>DILNET2.0 2.4Ghz</string>
 	<key>PayloadIdentifier</key>
 	<string>cc2.upd.edu.ph</string>
 	<key>PayloadOrganization</key>
